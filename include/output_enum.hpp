@@ -1,0 +1,47 @@
+//
+// Created by user on 08.04.17.
+//
+
+#ifndef FORTRAN_COMPILER_FSMOUTPUTENUM_HPP
+#define FORTRAN_COMPILER_FSMOUTPUTENUM_HPP
+
+enum output_enum {
+    ORESULT,
+    OFUNCTION,
+    OREAL,
+    OMOREOREQUALS,
+    OLESSOREQUALS,
+    OANDOR,
+    OOR,
+    OAND,
+    OISEQUALS,
+    ONOTEQUALS,
+    OCONTINUE,
+    OEXIT,
+    OPRINT,
+    OIDENT,
+    ODIGIT,
+    OPLUS,
+    OMINUS,
+    OMUL,
+    ODIV,
+    OEQUALS,
+    OLBR,
+    ORBR,
+    OTYPE,
+    OMORE,
+    OLESS,
+    OCOMMA,
+    ONL,
+    OIF,
+    OTHEN,
+    OELSE,
+    OWHILE,
+    ODO,
+    OEND,
+    OPROGRAM,
+    OINTEGER,
+    OSPACE,
+};
+
+#endif //FORTRAN_COMPILER_FSMOUTPUTENUM_HPP
